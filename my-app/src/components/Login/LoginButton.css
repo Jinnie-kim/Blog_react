@@ -20,6 +20,11 @@
 	vertical-align: middle;
 }
 
+.button.gray {
+	background: var(--gray-background);
+	color: var(--black-color);
+}
+
 .button.white {
 	padding: 0.2rem 0.8em 0;
 	background: var(--white-color);
