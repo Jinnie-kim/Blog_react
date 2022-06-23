@@ -1,5 +1,7 @@
 import React from 'react';
 import LogoSvg from '../../assets/Logo.svg';
+
+import Login from '../../components/Login/Login';
 import './Header.css';
 
 const Header = () => {
@@ -11,6 +13,7 @@ const Header = () => {
                         <img src={LogoSvg} alt="My Blog" />
                     </a>
                 </h1>
+                <Login />
             </div>
         </header>
     )
