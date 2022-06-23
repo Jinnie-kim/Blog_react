@@ -1,6 +1,7 @@
 import Header from './Layout/Header/Header';
 import Banner from './Layout/Banner/Banner';
 import Main from './Layout/Main/Main';
+import Footer from './Layout/Footer/Footer';
 
 import './Reset.css';
 import './Global.css';
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Banner />
       <Main />
+      <Footer />
     </div>
   );
 }
